@@ -1,7 +1,7 @@
 # TabSaverExtension
 A chrome Extension to save your opened tabs
 
-# Resources 🧾
+## Resources 🧾
 - https://developer.chrome.com/docs/extensions/mv3/getstarted/
 - https://developer.chrome.com/docs/extensions/reference/tabs/
 - https://developer.chrome.com/docs/apps/app_storage/
@@ -9,7 +9,7 @@ A chrome Extension to save your opened tabs
 - https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getAllInWindow
 - https://developer.chrome.com/docs/extensions/reference/tabs/
 
-# How to run your extension on Chrome?
+## How to run your extension on Chrome?
 - https://youtu.be/ia_TauKfS1Y?t=122
 
 ## 📌Contributing Guidelines :
