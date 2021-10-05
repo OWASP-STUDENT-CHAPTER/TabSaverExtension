@@ -1,13 +1,16 @@
 # TabSaverExtension
 A chrome Extension to save your opened tabs
 
-# Resources
+# Resources 🧾
 - https://developer.chrome.com/docs/extensions/mv3/getstarted/
 - https://developer.chrome.com/docs/extensions/reference/tabs/
 - https://developer.chrome.com/docs/apps/app_storage/
 - https://stackoverflow.com/questions/14531102/saving-and-retrieving-from-chrome-storage-sync
 - https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getAllInWindow
 - https://developer.chrome.com/docs/extensions/reference/tabs/
+
+# How to run your extension on Chrome?
+- https://youtu.be/ia_TauKfS1Y?t=122
 
 ## 📌Contributing Guidelines :
 
@@ -72,3 +75,5 @@ git push -u origin <your_branch_name>
 **12.** Add appropriate title and description to your pull request explaining your changes and efforts done. Always make sure you have pulled the latest code from the main branch before making a PR.
 
 **13.** Click on `Create Pull Request`.
+
+
