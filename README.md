@@ -26,7 +26,7 @@ Refer to the resources above for this part.
 <br>
 [chrome.tabs Documentation](https://developer.chrome.com/docs/extensions/reference/tabs/)
 - [ ] Create/Add workspace
-- [ ] Store tabs of thr workspace in localstorage of chrome. [Chrome storage](https://developer.chrome.com/docs/apps/app_storage/)
+- [ ] Store tabs of the workspace in localstorage of chrome. [Chrome storage](https://developer.chrome.com/docs/apps/app_storage/)
 - [ ] Display tabs of the workspace when clicked on the workspace button.
 
 ### Optional Features
