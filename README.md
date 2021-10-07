@@ -10,6 +10,7 @@ A chrome Extension to save your opened tabs
 - https://developer.chrome.com/docs/extensions/reference/tabs/
 
 ## How to run your extension on Chrome?
+- https://www.youtube.com/watch?v=CnkpZR0mRoU&list=PLYxzS__5yYQlWil-vQ-y7NR902ovyq1Xi&index=2
 - https://youtu.be/ia_TauKfS1Y?t=122
 
 ## 📌Contributing Guidelines :
@@ -76,4 +77,11 @@ git push -u origin <your_branch_name>
 
 **13.** Click on `Create Pull Request`.
 
-
+## Roadmap
+- setup
+- ui/ux
+- frontend in html,css
+- create/add workspace
+- store tabs
+- display tabs
+- delete workspace
