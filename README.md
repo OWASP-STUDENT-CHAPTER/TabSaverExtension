@@ -85,7 +85,9 @@ git push -u origin <your_branch_name>
 
 ### Working part using Javascript
 Refer to the resources above for this part.
+<br>
 [Getting started with chrome extensions](https://developer.chrome.com/docs/extensions/mv3/getstarted/)
+<br>
 [chrome.tabs Documentation](https://developer.chrome.com/docs/extensions/reference/tabs/)
 - [ ] Create/Add workspace
 - [ ] Store tabs of thr workspace in localstorage of chrome. [Chrome storage](https://developer.chrome.com/docs/apps/app_storage/)
