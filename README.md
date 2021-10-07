@@ -78,10 +78,21 @@ git push -u origin <your_branch_name>
 **13.** Click on `Create Pull Request`.
 
 ## Roadmap
-- setup
-- ui/ux
-- frontend in html,css
-- create/add workspace
-- store tabs
-- display tabs
-- delete workspace
+### Basic Setup & Frontend
+- [ ] setup of the extension in Chrome
+- [ ] Ui/Ux of the extension, [Figma Link](https://www.figma.com/file/POP8npbAChzcoatWC1EKhf/Extension?node-id=0%3A1).
+- [ ] Frontend using HTML, CSS.
+
+### Working part using Javascript
+Refer to the resources above for this part.
+[Getting started with chrome extensions](https://developer.chrome.com/docs/extensions/mv3/getstarted/)
+[chrome.tabs Documentation](https://developer.chrome.com/docs/extensions/reference/tabs/)
+- [ ] Create/Add workspace
+- [ ] Store tabs of thr workspace in localstorage of chrome. [Chrome storage](https://developer.chrome.com/docs/apps/app_storage/)
+- [ ] Display tabs of the workspace when clicked on the workspace button.
+
+### Optional Features
+- [ ] Delete workspace
+- [ ] Edit tabs in a workspace.
+
+Mention the part on which you want to work in [TabSaverExtension Team](https://github.com/orgs/OWASP-STUDENT-CHAPTER/teams/tabsaverextension)
