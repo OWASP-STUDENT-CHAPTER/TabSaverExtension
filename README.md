@@ -77,13 +77,13 @@ git push -u origin <your_branch_name>
 
 **13.** Click on `Create Pull Request`.
 
-## Roadmap
-### Basic Setup & Frontend
+## Roadmap 🍁
+### Basic Setup & Frontend 
 - [ ] setup of the extension in Chrome
 - [ ] Ui/Ux of the extension, [Figma Link](https://www.figma.com/file/POP8npbAChzcoatWC1EKhf/Extension?node-id=0%3A1).
 - [ ] Frontend using HTML, CSS.
 
-### Working part using Javascript
+### Working part using Javascript 
 Refer to the resources above for this part.
 <br>
 [Getting started with chrome extensions](https://developer.chrome.com/docs/extensions/mv3/getstarted/)
