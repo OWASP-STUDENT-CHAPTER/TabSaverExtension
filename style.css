@@ -1,0 +1,13 @@
+div {
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    color:aliceblue;
+    margin: 20px;
+  }
+  h1{
+    background-color: #555353;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+
+}
