@@ -1,13 +1,72 @@
+body{
+  background-color: black;
+}
+
+
 div {
-    background-color: rgb(0, 0, 0);
-    width: 300px;
+    background-color: #313131;
+    width: 400px;
+    height: 400px;
     color:aliceblue;
     margin: 20px;
   }
+
   h1{
     background-color: #555353;
     font-size: 20px;
+    font: Rokkitt;
     padding: 5px;
     text-align: center;
+    border-bottom: white;
+    border-width: 5px;
 
+}
+
+.button {
+  background-color: #555353;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 15px;
+  position: relative;
+  top: 5%;
+  left: 7%; 
+  width: 350px;
+}
+
+.add{
+  background-color: #313131;
+  border-color: aliceblue;
+  border-width: 1px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 15px;
+  position: relative;
+  top: 35%;
+  left: 7%; 
+  width: 350px;
+}
+
+.textBox {
+  background-color: #555353;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 15px;
+  position: relative;
+  top: 5%;
+  left: 7%; 
+  width: 308px;
 }
