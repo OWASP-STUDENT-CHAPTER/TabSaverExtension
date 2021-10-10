@@ -1,28 +1,41 @@
-const btnsave = document.getElementById('saveTabBtn');
-const btnset = document.getElementById('openTabBtn');
+const btnsave = document.getElementById('savebtn');
+const btnset = document.getElementById('getbtn');
 
 
-var gettingAll;
+// var gettingAll;
+var workspaces = {};
+var tabsInfo = {};
 
 //to save tabs
 btnsave.addEventListener('click', () => {
-    gettingAll = chrome.windows.getAll({populate: true});
-    chrome.storage.sync.set({'value': gettingAll}, () => {
-        alert('workspace saved');
-    })
+    chrome.tabs.query({},function(tabs){     
+    // console.log("tabs",tabs);
+    tabsInfo = tabs.map(tab=>({
+        // "title" : tab.title
+        "url":tab.url
+    }));
+    // console.log('tabsInfo', tabsInfo);
+    chrome.storage.sync.set({'key': tabsInfo}, () => {
+      console.log('saved');
+    });
+  });
 });
 
 //to get tabs array in a promise in console
 btnset.addEventListener('click', () => {
-    chrome.storage.sync.get('gettingAll', () => {
-        console.log(gettingAll);
-    })
+    chrome.storage.sync.get('key', () => {
+      for(var i=0;i<tabsInfo.length; i++){
+        // console.log(tabsInfo[i].url);
+        chrome.tabs.create({'url': tabsInfo[i].url}, callback1);
+      }
+    });
 });
 
+function callback1(){
+    console.log('displayed');
+};
 
+//chrome.tabs.executeScript(null,{file: "content.js"}); 
 
-// chrome.tabs.query({windowId: 1}, function(){
-//     alert('done');
-// });
 
 
