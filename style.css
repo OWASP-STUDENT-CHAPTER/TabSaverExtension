@@ -1,44 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@600&display=swap');
+
 body{
-  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  font-family: 'Rokkitt', serif;
+}
+.main-div{
+    background-color: #313131;
+    width: fit-content;
+    height: 400px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.head1-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-div {
-    background-color: #313131;
-    width: 400px;
-    height: 400px;
-    color:aliceblue;
-    margin: 20px;
-  }
-
-  h1{
+.head1{
     background-color: #555353;
-    font-size: 20px;
-    font: Rokkitt;
+    font-size: 25px;
+    font-weight: 600;
     padding: 5px;
     text-align: center;
-    border-bottom: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.336);
     border-width: 5px;
-
+    width: 360px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .button {
+  font-family: 'Rokkitt', serif;
+  font-size: 20px;
   background-color: #555353;
   border: none;
   color: white;
   padding: 20px;
   text-align: center;
-  display: block;
-  font-size: 16px;
   margin: 4px 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   border-radius: 15px;
   position: relative;
-  top: 5%;
-  left: 7%; 
   width: 350px;
 }
 
 .add{
+  font-family: 'Rokkitt', serif;
   background-color: #313131;
   border-color: aliceblue;
   border-width: 1px;
@@ -50,12 +66,13 @@ div {
   margin: 4px 2px;
   border-radius: 15px;
   position: relative;
-  top: 35%;
-  left: 7%; 
+  top: 30%;
   width: 350px;
 }
 
 .textBox {
+  font-family: 'Rokkitt', serif;
+  font-size: 20px;
   background-color: #555353;
   border: none;
   color: white;
@@ -66,7 +83,6 @@ div {
   margin: 4px 2px;
   border-radius: 15px;
   position: relative;
-  top: 5%;
-  left: 7%; 
+  border: 1px solid white;
   width: 308px;
 }
