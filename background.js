@@ -1,6 +1,7 @@
 const btnsave = document.getElementById('savebtn');
 const btnset = document.getElementById('getbtn');
-
+const btnAdd = document.getElementById('addbtn')
+const btnAll = document.getElementById('workspaceBtn');
 
 // var gettingAll;
 var workspaces = {};
@@ -37,5 +38,13 @@ function callback1(){
 
 //chrome.tabs.executeScript(null,{file: "content.js"}); 
 
+btnAdd.addEventListener('click', () => {
+  document.getElementById('all_workspace').style.display = 'none';
+  document.getElementById('create_workspace').style.display = 'block';
+})
 
+btnAll.addEventListener('click', () => {
+  document.getElementById('all_workspace').style.display = 'block';
+  document.getElementById('create_workspace').style.display = 'none';
+})
 

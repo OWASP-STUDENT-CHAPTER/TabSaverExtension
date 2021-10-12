@@ -11,25 +11,28 @@
 <body>
     
 
-    <div>
+    <div id="all_workspace" style="display: block;">
         <h1>
             SAVE YOUR WORKSPACE
         </h1>
-        <button class="button button1" id="getbtn">Workspace 1</button>
-        <button class="button button2">Workspace 2</button>
 
-        <button class="add">Add +</button>
+        <div onload='showWorkspaces()'>
+            <!-- <button class="button button1" id="getbtn">Workspace 1</button> -->
+            <!-- <button class="button button2">Workspace 2</button> -->
+        </div>
+
+        <button class="add" id="addbtn">Add +</button>
        
     </div>
 
-    <div>
-        <h1>
+    <div id="create_workspace" style="display: none;">
+        <h1 >
             SAVE YOUR WORKSPACE
         </h1>
-        <input class="textBox" type="text">
+        <input class="textBox" type="text" id="workspace_name">
         <button class="button button2" id="savebtn">Create Workspace</button>
 
-        <button class="add">Your Workspaces</button>
+        <button class="add" id="workspaceBtn">Your Workspaces</button>
        
     </div>
     
