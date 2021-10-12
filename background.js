@@ -1,14 +1,19 @@
 const btnsave = document.getElementById('savebtn');
 const btnset = document.getElementById('getbtn');
 const btnAdd = document.getElementById('addbtn')
-const btnAll = document.getElementById('workspaceBtn');
+const btnAll = document.getElementById('workspacebtn');
 
 // var gettingAll;
 var workspaces = {};
 var tabsInfo = {};
+var allWorkspaces = [];
 
 //to save tabs
 btnsave.addEventListener('click', () => {
+  //get workspace name
+  var input = document.getElementById('workspace_name');
+  allWorkspaces.push(input);  
+
     chrome.tabs.query({},function(tabs){     
     // console.log("tabs",tabs);
     tabsInfo = tabs.map(tab=>({
@@ -38,13 +43,23 @@ function callback1(){
 
 //chrome.tabs.executeScript(null,{file: "content.js"}); 
 
+
+//add button to display second section
 btnAdd.addEventListener('click', () => {
+  console.log('wokring');
   document.getElementById('all_workspace').style.display = 'none';
   document.getElementById('create_workspace').style.display = 'block';
-})
+});
 
+
+//all button to diaplce first section
 btnAll.addEventListener('click', () => {
   document.getElementById('all_workspace').style.display = 'block';
   document.getElementById('create_workspace').style.display = 'none';
-})
+});
 
+//display workspaces()
+showWorkspaces = function(allWorkspaces) {
+  for(i=0; i<allWorkspaces.length; i++)
+    print()
+}
