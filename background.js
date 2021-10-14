@@ -1,6 +1,6 @@
 const btnsave = document.getElementById('savebtn');
 const btnset = document.getElementById('getbtn');
-const btnAdd = document.getElementById('addbtn')
+const btnAdd = document.getElementById('addBtn')
 const btnAll = document.getElementById('workspacebtn');
 
 // var gettingAll;
@@ -59,7 +59,19 @@ btnAll.addEventListener('click', () => {
 });
 
 //display workspaces()
-showWorkspaces = function(allWorkspaces) {
-  for(i=0; i<allWorkspaces.length; i++)
-    print()
-}
+// showWorkspaces = function(allWorkspaces) {
+//   for(i=0; i<allWorkspaces.length; i++)
+//     print()
+// }
+
+var listBrand =['LEXUS','AUDI','MAYBACK','FERRARI','TOYOTA'];
+
+function printBtn() {
+  for(var i=0; i<listBrand.length; i++)
+  {
+    var btn = document.createElement("button");
+    var t = document.createTextNode(listBrand[i]);
+    btn.appendChild(t);
+    document.body.appendChild(btn);
+  }
+} 

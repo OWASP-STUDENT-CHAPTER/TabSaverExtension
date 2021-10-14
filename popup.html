@@ -17,8 +17,20 @@
         </div>
         
         <!-- <div onload='showWorkspaces()'> -->
-            <!-- <button class="button button1" id="getbtn">Workspace 1</button> -->
-            <!-- <button class="button button2">Workspace 2</button> -->
+            <button class="button button1" id="getbtn">Workspace 1</button>
+            <script>
+                var arr =['w1','w2','w3','w4','w5'];
+
+                function printBtn() {
+                for(var i=0; i<arr.length; i++)
+                {
+                    var btn = document.createElement("button"); 
+                    var t = document.createTextNode(arr[i]);
+                    btn.appendChild(t);
+                    document.body.appendChild(btn);
+                }
+                } 
+            </script>
         <!-- </div> -->
 
         <button class="add" id="addBtn">Add +</button>
