@@ -12,7 +12,11 @@ var allWorkspaces = [];
 btnsave.addEventListener('click', () => {
   //get workspace name
   var input = document.getElementById('workspace_name');
-  allWorkspaces.push(input);  
+  
+  chrome.storage.sync.set({'key': allWorkspaces}, () => {
+    allWorkspaces.push(input);
+    console.log(input);
+  });
 
     chrome.tabs.query({},function(tabs){     
     // console.log("tabs",tabs);
@@ -64,14 +68,3 @@ btnAll.addEventListener('click', () => {
 //     print()
 // }
 
-var listBrand =['LEXUS','AUDI','MAYBACK','FERRARI','TOYOTA'];
-
-function printBtn() {
-  for(var i=0; i<listBrand.length; i++)
-  {
-    var btn = document.createElement("button");
-    var t = document.createTextNode(listBrand[i]);
-    btn.appendChild(t);
-    document.body.appendChild(btn);
-  }
-} 
