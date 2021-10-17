@@ -5,6 +5,7 @@ body{
   flex-direction: column;
   margin: 0px;
   font-family: 'Rokkitt', serif;
+  background-color: #313131;
 }
 .main-div{
     background-color: #313131;
