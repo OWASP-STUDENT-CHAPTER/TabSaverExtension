@@ -8,9 +8,14 @@ const workspacediv = document.getElementById('workspaces');
 // var gettingAll;
 var workspaces = {};
 var tabsInfo = {};
+var workspacesArr = [];
 
 //to save tabs
 btnsave.addEventListener('click', () => {
+    var input = document.getElementById('input_name').value;
+    workspacesArr.push(input);
+    console.log(input);
+    window.alert(input + " has been created");
     chrome.tabs.query({},function(tabs){     
     // console.log("tabs",tabs);
     tabsInfo = tabs.map(tab=>({
@@ -51,18 +56,19 @@ btnAdd.addEventListener('click', () => {
 btnAll.addEventListener('click', () => {
   document.getElementById('all_workspace').style.display = 'block';
   document.getElementById('create_workspace').style.display = 'none';
+  printBtn();
 });
 
 //to get all the workspaces (currently static)
-var arr =['w1','w2','w3','w4','w5'];
+// var arr =['w1','w2','w3','w4','w5'];
 function printBtn() {
-  for(var i=0; i<arr.length; i++)
+  for(var i=0; i<workspacesArr.length; i++)
   {
       var btn = document.createElement("button"); 
       btn.className = "button"
-      var t = document.createTextNode(arr[i]);
+      var t = document.createTextNode(workspacesArr[i]);
       btn.appendChild(t);
       workspacediv.appendChild(btn);
+      console.log(workspacesArr[i]);
   }
 } 
-printBtn();
