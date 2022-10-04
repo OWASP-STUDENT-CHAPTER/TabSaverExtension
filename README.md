@@ -1,3 +1,5 @@
+![hacktoberfest](./assets/WhatsApp%20Image%202022-10-05%20at%2000.28.18.jpeg)
+
 # TabSaverExtension
 A chrome Extension to save your opened tabs
 
