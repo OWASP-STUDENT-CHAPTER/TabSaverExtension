@@ -35,66 +35,53 @@ Refer to the resources above for this part.
 
 Mention the part on which you want to work in [TabSaverExtension Team](https://github.com/orgs/OWASP-STUDENT-CHAPTER/teams/tabsaverextension)
 
-## 📌Contributing Guidelines :
+# How to Contribute
 
-**1.** Fork [this](https://github.com/OWASP-STUDENT-CHAPTER/TabSaverExtension) repository.
+We follow a systematic Git Workflow -
 
-**2.** Clone your forked copy of the project.
+- Create a fork of this repo.
+- Clone your fork of your repo on your pc.
+- [Add Upstream to your clone](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
+- **Every change** that you do, it has to be on a branch. Commits on master would directly be closed.
+- Make sure that before you create a new branch for new changes, [syncing with upstream](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) is necessary.
+<br>
 
-```
-git clone https://github.com/<your-github-username>/TabSaverExtension.git
-```
+<h3 color="grey"> 
 
-**3.** Add a reference(remote) to the original repository.
+Make sure you read the [CONTRIBUTIONS](./CONTRIBUTIONS.md) before you start contributing such that you make remarkable and easily acceptable PRs.</h3>
+<br>
 
-```
-git remote add upstream https://github.com/OWASP-STUDENT-CHAPTER/TabSaverExtension.git
-```
+# OWASP Student Chapter, TIET
 
-**4.** Check the remotes for this repository.
+![logo-owasp.png](assets/logo-owasp.png) <br><br>
 
-```
-git remote -v
-```
+<h3 align="center">Thapar Institute of Engineering and Technology (TIET) has been a steady source of highly skilled talent to the nation as well as overseas. A pioneer in engineering education, research and innovation. The team of OWASP Student Chapter, one of the gilt-edged coding society, involves ingenious mind solvers who are eager to make the world a better place to live in with their innovative techniques and discoveries. By successfully organising many hackathons, tech-talks, workshops and coding nights, we have always strived hard to maintain the coding culture throughout the campus.</h3><br>
 
-**5.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
+<p align="center">
 
-```
-git pull upstream main
-```
+Check out our work at [owasp.co.in](http://owasp.co.in) </p>
 
-**6.** Create a new branch.
+## Contact Us
+<p style="text-align: center;">
 
-```
-git checkout -b <your_branch_name>
-```
+<h3>
 
-**7.** Perfom your desired changes to the code base.
+[Instagram](https://www.instagram.com/owasp_tiet/)
+</h3>
 
-```
-Some code changes
-```
+<h3>
 
-**8.** Add files
+[Github](https://github.com/OWASP-STUDENT-CHAPTER)
+</h3>
 
-```
-git add .
-```
+<h3>
 
-**9.** Commit your changes .
+[Twitter](https://twitter.com/Owasp_tiet)
+</h3>
 
-```
-git commit -m "Relevant message"
-```
+<h3>
 
-**10.** Push the committed changes in your feature branch to your remote repo.
+[Linkedin](https://www.linkedin.com/company/owasp-tiet/)
+</h3>
+</p>
 
-```
-git push -u origin <your_branch_name>
-```
-
-**11.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
-
-**12.** Add appropriate title and description to your pull request explaining your changes and efforts done. Always make sure you have pulled the latest code from the main branch before making a PR.
-
-**13.** Click on `Create Pull Request`.
